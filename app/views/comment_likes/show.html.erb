@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @comment_like.comment %>
+</p>
+
+<p>
+  <strong>Like:</strong>
+  <%= @comment_like.like %>
+</p>
+
+<p>
+  <strong>Record type:</strong>
+  <%= @comment_like.record_type %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @comment_like.user_id %>
+</p>
+
+<p>
+  <strong>Post:</strong>
+  <%= @comment_like.post_id %>
+</p>
+
+<%= link_to 'Edit', edit_comment_like_path(@comment_like) %> |
+<%= link_to 'Back', comment_likes_path %>
