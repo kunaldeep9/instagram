@@ -5,20 +5,16 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+- Ruby version : 2.5.3
 
-* System dependencies
+- Rails Version : 6.0.4
 
-* Configuration
+=> I have created User with devise for authentication.
 
-* Database creation
+=> secand modal is post with active storage and linked with user
 
-* Database initialization
+=> third table is comments_likes and linked with user and post both.
 
-* How to run the test suite
+I have introduce a column record_type in comments_likes modal for using both comment and like.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I have declared two scope to get liked and commented entries and post
